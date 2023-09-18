@@ -1,0 +1,20 @@
+<footer class="footer">
+  <div class="content-container">
+    <div class="left-container">
+      <img src="/assets/images/logo.svg" alt="logo LoopStudios" />
+      <ul>
+        <li>About</li>
+        <li>Careers</li>
+        <li>Events</li>
+        <li>Products</li>
+        <li>Support</li>
+      </ul>
+    </div>
+    <div class="right-container">
+      <div class="social-media">
+        <img *ngFor="let icon of icons" [src]="icon.url" [alt]="icon.name" />
+      </div>
+      <span>© 2023 Loopstudios. All rights reserved.</span>
+    </div>
+  </div>
+</footer>

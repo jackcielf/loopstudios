@@ -26,10 +26,9 @@
   align-items: center;
   justify-content: space-between;
 
-  .items {
+  ul {
     display: flex;
     align-items: center;
-    justify-content: space-around;
     gap: 2em;
 
     li {
