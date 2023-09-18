@@ -1,0 +1,32 @@
+// SECTION CENTER
+.content-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  background-color: var(--white);
+  padding: 4em 0 10px 4em;
+  position: relative;
+  left: -150px;
+  bottom: -110px;
+
+  .txt-title {
+    width: 470px;
+    text-transform: uppercase;
+    font-family: "Josefin Sans", serif;
+    font-size: 3em;
+  }
+
+  .txt {
+    color: var(--gray);
+    font-family: "Alata", serif;
+    // font-size: 3em;
+  }
+}
