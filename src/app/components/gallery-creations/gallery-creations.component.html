@@ -1,0 +1,14 @@
+<section class="section-bottom">
+  <div class="content-container">
+    <header class="header">
+      <span>Our creations</span>
+      <button>See all</button>
+    </header>
+    <div class="images-container">
+      <div class="image" *ngFor="let image of images">
+        <img [src]="image.url" [alt]="image.name" />
+        <span>{{ image.name }}</span>
+      </div>
+    </div>
+  </div>
+</section>
