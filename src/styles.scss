@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alata', 'Josefin Sans', sans-serif;
+}
+
+:root {
+    --white: #fff;
+    --black: #000;
+    --gray: #8c8c8c;
+    --darkgray: #696969;
+}
+
+.content-container {
+    width: 78%;
+    margin: 0 auto;
+    position: relative;
+}
